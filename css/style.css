@@ -48,7 +48,7 @@
     color: #000000;
 }
 .other-texts {
-    color: #858383;
+    color: #808080;
     font-size: 18px;
     font-weight: 500;
     margin: 30px 0px;
@@ -177,7 +177,7 @@ span{
 }
 .slogan{
     background-color: #0B0D17;
-    height: 150px;
+    height: 160px;
     width: 100%;
     color: #fff;
     text-align: center;
@@ -185,11 +185,14 @@ span{
 .slogan h1{
     font-family: 'Lobster', cursive;
     color: #ff5959;
-    padding-top: 25px;
+    padding-top: 30px;
     font-weight: 400;
+    font-size: 35px;
 }
 .slogan p{
+    font-family: sans-serif;
     padding: 30px 0;
     font-size: 13px;
-    font-weight: 300;
+    font-weight: 200;
+    color: #ececec;
 }
