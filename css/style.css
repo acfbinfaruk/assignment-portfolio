@@ -11,24 +11,26 @@
     margin-bottom: 100px;
 }
 .intro-section h1{
-    color: white;
+    color: #fcfcfc;
     padding: 200px 120px 0px 120px;
     font-size: 60px;
     text-align: center;
     font-weight: 700;
+    margin-bottom: 35px;
 }
 .intro-section p{  
-    color: #f5f5f5;
+    color: #f0f0f0;
     padding: 0% 15%;
     font-size: 18px;
     text-align: center;
     margin-bottom:50px ;
+    font-weight: 500;
 }
 .link-button{
-    color: white;
+    color: #ffffff;
     text-decoration: none;
     background-color: #ff5959;
-    background-image: linear-gradient(tomato red);
+    background-image: linear-gradient(#ff6347 #f30c0c);
     font-size: 18px;
     padding: 10px 15px; 
     text-align: center;
@@ -43,7 +45,7 @@
 }
 .headings {
     font-size: 40px;
-    color: #000;
+    color: #000000;
 }
 .other-texts {
     color: #858383;
@@ -51,6 +53,7 @@
     font-weight: 500;
     margin: 30px 0px;
     letter-spacing: 0.5px;
+    line-height: 30px;
 }
 .buttons{
     display: flex;
@@ -62,17 +65,17 @@
 button {
     color: rgb(173, 175, 167);
     background-color: rgb(245, 245, 245);
-    border: 0 solid #000;
+    border: none;
     padding: 40px;
     font-size: 30px;
     font-weight: 600;
-    border-radius: 2%;
+    border-radius: 3px;
 }
 #clicked-button{
     color: #ff5959;
     border: 2px solid #ff5959;
     background-color: #fce2de;
-    border-radius: 2%;
+    border-radius: 3px;
 }
 
 #custom-amount{
@@ -168,6 +171,9 @@ button {
     font-size: 18px;
     background-color: #ff5959;
     border-radius: 0 5px 5px 0;
+}
+span{
+    font-size: 25px
 }
 .slogan{
     background-color: #0B0D17;
